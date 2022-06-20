@@ -1,0 +1,296 @@
+<!-- set up file -->
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insight HTML Email Template</title>
+
+    <!-- styles  -->
+    <style type="text/css">
+        /* step1 */
+        /* resets, clear default/ client formatting */
+        body {
+            margin: 0;
+            background: #ffffff;
+        }
+
+        table {
+            border-spacing: 0;
+        }
+
+        img {
+            border: 0;
+        }
+
+        /* step2 */
+        /* set up body layout */
+        /* plan out rows */
+        .wrapper {
+            width: 100%;
+            table-layout: fixed;
+            background-color: #ffffff;
+            padding-bottom: 30px;
+        }
+
+        .main {
+            background-color: #ffffff;
+            margin: 0;
+            width: 100%;
+            max-width: 600px;
+            border-spacing: 0;
+            font-family: sans-serif;
+            color: #4a4a4a;
+        }
+
+
+        /* step3 */
+        /* repeated themes for columns */
+        .cat-link td {
+            text-align: center;
+            padding: 12px;
+            border-top: 1px solid #4a4a4a;
+            font-size: 24px;
+            background-color: #ffffff;
+        }
+
+        .cat-link td a {
+            color: #4a4a4a;
+            text-decoration: none;
+        }
+        .footer a {
+            text-decoration: none;
+            color: #929191;
+        }
+        /* step4 */
+        /* specific styiling to be inline */
+    </style>
+</head>
+
+<body>
+    <center class="wrapper">
+        <table class="main" width="100%">
+            <!-- LOGO  -->
+            <tr>
+                <td>
+                    <a href="#"><img src="img/logo.jpg" width="600" max-width="100%" alt=""></a>
+                </td>
+            </tr>
+            <!-- PROMO 1-->
+            <tr>
+                <td>
+                    <a href="#"><img src="img/1.jpg" width="600" max-width="100%" alt=""></a>
+                </td>
+            </tr>
+            <tr>
+                <td height="5px" style="background-color: #ffffff;"></td>
+            </tr>
+            <!-- PROMO 2 -->
+            <tr>
+                <td>
+                    <a href="#"><img src="img/2.jpg" width="600" max-width="100%" alt=""></a>
+                </td>
+            </tr>
+            <tr>
+                <td height="5px" style="background-color: #ffffff;"></td>
+            </tr>
+            <!-- PROMO 3-->
+            <tr>
+                <td>
+                    <a href="#"><img src="img/3.jpg" width="600" max-width="100%" alt=""></a>
+                </td>
+            </tr>
+            <tr>
+                <td height="5px" style="background-color: #ffffff;"></td>
+            </tr>
+            <!-- PROMO 4 -->
+            <tr>
+                <td>
+                    <a href="#"><img src="img/4.jpg" width="600" max-width="100%" alt=""></a>
+                </td>
+            </tr>
+            <tr>
+                <td height="5px" style="background-color: #ffffff;"></td>
+            </tr>
+            <!-- NEAREST STORE ADDRESS -->
+            <tr>
+                <td style="padding: 5px 0 5px;background-color: rgb(223, 214, 202);">
+                    <table width="100%">
+                        <tr>
+                            <td style="text-align: center;padding: 15px;">
+                                <p style="font-size: 28px;font-weight: 500;">
+                                    Visit your nearest store at: </p>
+                                <p style="font-size: 24px;">WINDSOR TOWN CENTER <br>
+                                    11200 BROADWAY ST <br>
+                                    Salt Lake City, AR
+                                </p>
+                            </td>
+                        </tr>
+
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td height="8px" style="background-color: #ffffff;"></td>
+            </tr>
+            <!-- cATEGORY LINKS -->
+            <tr>
+                <td>
+                    <table width="100%">
+                        <tr class="cat-link">
+                            <td>
+                                <a href="#">CHARMS</a>
+                            </td>
+                        </tr>
+                        <tr class="cat-link">
+                            <td>
+                                <a href="#">RINGS</a>
+                            </td>
+                        </tr>
+                        <tr class="cat-link">
+                            <td>
+                                <a href="#">NECKLACE</a>
+                            </td>
+                        </tr>
+                        <tr class="cat-link">
+                            <td>
+                                <a href="#">BRACELET</a>
+                            </td>
+                        </tr>
+                        <tr class="cat-link">
+                            <td>
+                                <a href="#">EARRINGS</a>
+                            </td>
+                        </tr>
+                        <tr class="cat-link">
+                            <td>
+                                <a href="#">WHAT'S NEW</a>
+                            </td>
+                        </tr>
+                        <tr class="cat-link">
+                            <td>
+                                <a href="#">FAITH</a>
+                            </td>
+                        </tr>
+                        <tr class="cat-link">
+                            <td style="border-bottom:1px solid #4a4a4a">
+                                <a href="#">CATALOG</a>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <!-- HELPFUL LINKS -->
+            <tr>
+                <td>
+                    <table width="100%" style="padding: 10px; background-color: #ffffff;">
+                        <tr>
+                            <td style="text-align: center;"><a href="#"><img src="img/gift.png" width="180" alt=""> </a>
+                            </td>
+                            <td style="text-align: center;"><a href="#"><img src="img/list.png" width="180" alt=""> </a>
+                            </td>
+                            <td style="text-align: center;"><a href="#"><img src="img/card.png" width="180" alt=""> </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;"><a href="#"><img src="img/map.png" width="180" alt=""> </a>
+                            </td>
+                            <td style="text-align: center;"><a href="#"><img src="img/ship.png" width="180" alt=""> </a>
+                            </td>
+                            <td style="text-align: center;"><a href="#"><img src="img/return.png" width="180" alt="">
+                                </a></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <!-- PURCHASE PICKUP -->
+            <tr>
+                <td>
+                    <table width="100%">
+                        <tr>
+                            <td style="padding: 20px 0;">
+                                <a href="#"><img src="img/instore.jpg" style="padding-right: 8px;" width="290px"
+                                        alt=""></a>
+                            </td>
+                            <td style="padding: 20px 0;">
+                                <a href="#"><img src="img/curbside.jpg" style="padding-left: 8px;" width="290px"
+                                        alt=""></a>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <!-- SOCIALS -->
+            <tr>
+                <td>
+                    <table width="100%">
+                        <tr>
+                            <td style="text-align: center;padding: 10px;">
+                                <a href="https://www.facebook.com"><img src="img/fb.png" alt=""></a>
+                                <a href="https://www.instagram.com"><img src="img/ig.png" alt=""></a>
+                                <a href="https://www.pinterest.com"><img src="img/pin.png" alt=""></a>
+                                <a href="https://www.twitter.com"><img src="img/tw.png" alt=""></a>
+                                <a href="https://www.youtube.com"><img src="img/yt.png" alt=""></a>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="#"><img src="img/tagline.png" width="600px" max-width="100%" alt=""></a>
+                </td>
+            </tr>
+            <!-- FOOTER -->
+            <tr>
+                <td>
+                    <table width="100%">
+                        <tr style="margin: 0;">
+                            <td style="text-align: center; padding: 0;font-size:30px;">
+                                <p style="color: #929191;margin: 0;">Give us a call:<br>
+                                    <a href="tel:800-283-1770" style="color: red;">(800) 283-1770</a>
+                                </p>
+
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <!-- footer policy -->
+            <tr>
+                <td>
+                    <table width="100%">
+                        <tr>
+                            <td class="footer"style="text-align: center; color: #929191;">
+                                <p>
+                                    FREE RETURNS & EXCHANGES <br>
+                                    Only available for orders shipped within the U.S. <br>
+                                    Read full <a href="#" style="text-decoration: none;color: #929191;">Returns &
+                                        Exchanges Policy.</a> <br>
+                                </p>
+                                <p>
+                                    To ensure our email reaches your inbox, please add <br>
+                                    <a href="#">myjamesavery@email.jamesavery.com</a> to your address book or safe list.
+                                </p>
+                                <p>This email was sent to: <a href="#"
+                                        >user@email.com</a></p>
+
+                                <p><a href="#">View Email as Web Page</a><br><a href="#">Unsubscribe</a>&ensp;<a
+                                        href="">Privacy
+                                        Policy</a></p>
+                                <p>© 2022 James Avery Craftsman, Inc. <br>
+                                    145 Avery Rd | Kerrville, TX 78028 USA</p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </center>
+
+</body>
+
+</html>
